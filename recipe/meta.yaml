@@ -1,5 +1,5 @@
 {% set name = "ponio" %}
-{% set version = "0.2.0" %}
+{% set version = "0.4.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/hpc-maths/ponio/archive/v{{ version }}.tar.gz
-  sha256: 758929cf49509896063a1a3e989423debb60ce149e892c4c9130f8f7f6dc5ac4
+  sha256: 771b14b501ceb2c7a0dea50bacbf5e1b0d13223b280bda19a6f9845e41c3be34
 
 build:
   number: 1
