@@ -10,8 +10,7 @@ source:
   sha256: 771b14b501ceb2c7a0dea50bacbf5e1b0d13223b280bda19a6f9845e41c3be34
 
 build:
-  noarch: generic
-  number: 0
+  number: 1
 
 requirements:
   build:
@@ -23,9 +22,6 @@ requirements:
     - sympy
     - numpy
     - jinja2
-  run:
-    - __unix  # [unix]
-    - __win  # [win]
 
 test:
   commands:
